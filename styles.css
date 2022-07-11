@@ -651,7 +651,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
         ),
-        url('images/DSC_4034.jpg');
+        url('images/ankita.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -667,7 +667,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
         ),
-        url('images/DSC_4300.jpg');
+        url('images/ruhie.jpg');
 }
 
 .board__card:nth-child(3) {
@@ -676,7 +676,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
         ),
-        url('images/DSC_4057.jpg');
+        url('images/druhi.jpg');
 }
 .board__card:nth-child(4) {
     background-image: linear-gradient(
@@ -684,7 +684,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
         ),
-        url('images/DSC_4356.jpg');
+        url('images/prisha.jpg');
 }
 .board__card:nth-child(5) {
     background-image: linear-gradient(
@@ -692,7 +692,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
         ),
-        url('images/DSC_4024.jpg');
+        url('images/manushi.jpg');
 }
 
 .board__card h2 {
