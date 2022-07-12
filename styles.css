@@ -324,7 +324,7 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 50vh;
+        height: 70vh;
     }
 
     .main__content {
@@ -375,7 +375,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 140vh;
+    height: 205vh;
 }
 
 .whoWeAre h1 {
@@ -394,6 +394,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    /* margin-top: 10rem; */
     margin-bottom: 2rem;
     font-size: 2.5rem;
 }
@@ -479,12 +480,12 @@
 
 @media screen and (max-width: 960px) {
     .whoWeAre {
-        height: 250vh;
+        height: 315vh;
     }
 
     .whoWeAre h1 {
         font-size: 2rem;
-        margin-top: 25rem;
+        /* margin-top: 25rem; */
     }
 
     .whoWeAre h2 {
@@ -497,8 +498,8 @@
     }
 
     .whoWeAre p {
-        margin-left: 7rem;
-        margin-right: 7rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
 
     .whoWeAre__card p {
@@ -509,15 +510,23 @@
 
 @media screen and (max-width: 480px) {
     .whoWeAre {
-        height: 1400px;
+        height: 300vh;
     }
 
     .whoWeAre h1 {
         font-size: 1.2rem;
+        margin-top: 10rem;
     }
 
     .whoWeAre__card {
         width: 300px;
+    }
+
+    .whoWeAre__card h2 {
+        font-size: 1.5rem;
+    }
+    .whoWeAre__card p {
+        font-size: 1rem;
     }
 }
 
@@ -562,12 +571,12 @@
 
 @media screen and (max-width: 960px) {
     .joinUs {
-        height: 300vh;
+        height: 60vh;
     }
 
     .joinUs h1 {
         font-size: 2rem;
-        margin-top: 50rem;
+        /* margin-top: 50rem; */
     }
 
     .joinUs h2 {
@@ -583,15 +592,11 @@
 
 @media screen and (max-width: 480px) {
     .joinUs {
-        height: 1400px;
+        height: 100vh;
     }
 
     .joinUs h1 {
         font-size: 1.2rem;
-    }
-
-    .joinUs {
-        width: 300px;
     }
 }
 
@@ -603,9 +608,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 175vh;
+    height: 220vh;
 }
-
 
 .board h1 {
     background-color: #ff8177;
@@ -624,6 +628,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-bottom: 2rem;
+    margin-top: 10rem;
     font-size: 2.5rem;
 }
 
@@ -718,12 +723,12 @@
 
 @media screen and (max-width: 960px) {
     .board {
-        height: 400vh;
+        height: 375vh;
     }
 
     .board h1 {
         font-size: 2rem;
-        margin-top: 25rem;
+        margin-top: 5rem;
     }
 
     .board h2 {
@@ -749,11 +754,12 @@
 
 @media screen and (max-width: 480px) {
     .board {
-        height: 150vh;
+        height: 375vh;
     }
 
     .board h1 {
         font-size: 1.2rem;
+        margin-top: 10rem;
     }
 
     .board__card {
@@ -762,15 +768,15 @@
 
     .board__card h2 {
         position: absolute;
-        font-size: 2rem;
-        margin-left: 2.5rem;
+        font-size: 1.5rem;
+        margin-left: 2rem;
         top: 400px;
     }
     
     .board__card p {
         position: absolute;
-        font-size: 1.1rem;
-        margin-left: 2.5rem;
+        font-size: 1rem;
+        margin-left: 2rem;
         top: 450px;
     }
     
@@ -898,7 +904,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 0.8rem;
 }
   
 .footer__links {
