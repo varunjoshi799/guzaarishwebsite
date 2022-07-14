@@ -5,7 +5,4 @@ menu.addEventListener('click', function() {
   menu.classList.toggle('is-active');
   menuLinks.classList.toggle('active');
 });
-$('.navbar__item a').on('click', function() {
-  $('.navbar__item').hide()
-  menuLinks.classList.toggle('active');
-});
+

@@ -10,6 +10,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+
 .navbar {
     background: #131313;
     height: 80px;
@@ -211,7 +212,7 @@
 
 /* Main Content CSS */
 .main {
-    background-color: #141414;
+    background-color: #131313;
 }
 
 .main__container {
@@ -585,8 +586,8 @@
     }
 
     .joinUs p {
-        margin-right: 7rem;
-        margin-left: 7rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
 
@@ -781,19 +782,23 @@
     }
     
 }
-/* What We Do CSS */
 
-.do {
-    background: #131313;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* FAQ Section CSS */
+
+.FAQ {
+    background-color: #131313;
 }
 
-.do h1 {
-    background-color: #ff8177;
+.FAQ__container {
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQ h1 {
     background-image: linear-gradient(
         to right,
         #00FEEF 0%,
@@ -808,84 +813,98 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    margin-top: 10rem;
     margin-bottom: 2rem;
     font-size: 2.5rem;
 }
 
-.do h2 {
+.FAQ h2 {
     color: #fff;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
-.do p {
-    color: #fff;
-    max-width: 900px;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 3rem;
-}
-
-.do__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.do__card {
-    margin: 1rem;
-    height: 525px;
-    width: 400px;
-    border-radius: 4px;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(17, 17, 17, 0.6) 100%
-        ),
-        url('images/sb.jpg');
-    background-size: cover;
-    position: relative;
-    color: #fff;
-}
-
-.do__card:before {
-    opacity: 0.2;
-}
-
-.do__card:nth-child(2) {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(17, 17, 17, 0.9) 100%
-        ),
-        url('images/pennmasala.jpg');
-}
-
-.do__card:nth-child(3) {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(17, 17, 17, 0.9) 100%
-        ),
-        url('images/bonding.jpeg');
-}
-
-.do__card h2 {
-    position: absolute;
-    top: 450px;
-    left: 150px;
-}
-
-.do__card p {
-    position: absolute;
-    top: 400px;
-    left: 30px;
-}
-
-
-.do__card:hover {
-    transform: scale(1.075);
-    transition: 0.2s ease-in;
+.faq {
+    max-width: 800px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
     cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    color: #fff;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out
+}
+
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 960px ){
+    .FAQ__container {
+        height: 150vh;
+    }
+
+    .FAQ h1 {
+        font-size: 2rem;
+    }
+
+    .FAQ h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .FAQ__container {
+        height: 180vh;
+    }
+
+    .FAQ h1 {
+        font-size: 1.2rem;
+    }
+
+    .FAQ h2 {
+        font-size: 1rem;
+    }
 }
 
 /* Footer CSS */
