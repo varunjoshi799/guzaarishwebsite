@@ -411,6 +411,7 @@
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .whoWeAre__container {
@@ -458,10 +459,11 @@
 }
 
 .whoWeAre__card h2 {
-    position: absolute;
+    position: relative;
     font-size: 2rem;
-    margin-left: 3.5rem;
+    margin-left: 0 auto;
     top: 330px;
+    text-align: center;
 
 }
 
@@ -568,6 +570,11 @@
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 3rem;
+    text-align: center;
+}
+
+.joinUs li {
+    list-style: none;
 }
 
 @media screen and (max-width: 960px) {
@@ -821,6 +828,7 @@
 .FAQ h2 {
     color: #fff;
     margin-bottom: 2.5rem;
+    text-align: center;
 }
 
 .faq {
