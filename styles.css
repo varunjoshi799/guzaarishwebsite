@@ -323,54 +323,6 @@
     animation: slide 30s infinite;
 }
 @keyframes slide{
-    /* 0%{
-        transform: translateX(0);
-    }
-    7%{
-        transform: translateX(0%);
-    }
-    14%{
-        transform: translateX(-100%);
-    }
-    21%{
-        transform: translateX(-100%);
-    }
-    28%{
-        transform: translateX(-200%);
-    }
-    35%{
-        transform: translateX(-200%);
-    }
-    42%{
-        transform: translateX(-300%);
-    }
-    49%{
-        transform: translateX(-300%);
-    }
-    56%{
-        transform: translateX(-400%);
-    }
-    63%{
-        transform: translateX(-400%);
-    }
-    70%{
-        transform: translateX(-500%);
-    }
-    77%{
-        transform: translateX(-500%);
-    }
-    84%{
-        transform: translateX(-600%);
-    }
-    91%{
-        transform: translateX(-700%);
-    }
-    98%{
-        transform: translateX(-800%);
-    }
-    100%{
-        transform: translateX(-900%);
-    } */
     0%{
         transform: translateX(0%);
     }
@@ -984,7 +936,7 @@ svg {
 
 @media screen and (max-width: 960px ){
     .FAQ__container {
-        height: 150vh;
+        height: 225vh;
     }
 
     .FAQ h1 {
@@ -993,6 +945,10 @@ svg {
 
     .FAQ h2 {
         font-size: 1.5rem;
+    }
+    .answer iframe {
+        width: 355px;
+        height: 200px;
     }
 }
 
@@ -1007,6 +963,10 @@ svg {
 
     .FAQ h2 {
         font-size: 1rem;
+    }
+    .answer iframe {
+        width: 225px;
+        height: 127px;
     }
 }
 
